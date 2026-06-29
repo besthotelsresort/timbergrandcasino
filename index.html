@@ -50,7 +50,7 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter', system-ui, sans-serif;min-height:100vh;color:#fff;display:flex;flex-direction:column;position:relative;overflow:hidden}
-body{background:linear-gradient(180deg,#1f2937 0%,#d9770633 45%,#1f2937 100%)}body::before{content:'';position:absolute;inset:-30%;background:conic-gradient(from 210deg at 50% 40%,#d9770622,transparent 25%,#a35a0418,transparent 55%,#d9770615);z-index:0;animation:sweep 20s linear infinite}@keyframes sweep{to{transform:rotate(360deg)}}
+body{background:linear-gradient(145deg,#1f2937 0%,#1f2937 38%,#d9770666 68%,#a35a04bb 100%)}
 .main{position:relative;z-index:2;flex:1;display:flex;align-items:flex-start;justify-content:center;text-align:center;padding:clamp(40px,8vh,100px) 6% 40px}
 h1{font-family:'Playfair Display', Georgia, serif;font-size:clamp(46px, 8.5vw, 132px);line-height:0.95;font-weight:400;letter-spacing:-3px;margin-bottom:18px}
 .sub{font-family:'Playfair Display', Georgia, serif;font-size:22px;font-style:italic;color:rgba(255,255,255,.78);max-width:600px;margin:0 auto 28px}
@@ -69,7 +69,7 @@ h1{font-family:'Playfair Display', Georgia, serif;font-size:clamp(46px, 8.5vw, 1
     <h1>Welcome</h1>
     <p class="sub">You must be 18 or older to enter this site.</p>
     <div class="rule"></div>
-    <button id="cta" class="btn" type="button">I am 18+ &#xB7; Enter &#x2192;</button><script>(function(){var c=document.getElementById("cta");if(!c)return;c.addEventListener("click",function(){location.href=atob("aHR0cHM6Ly9iZXRieWJldHMuY29tLw==");});})();</script>
+    <button id="cta" class="btn" type="button">I am 18+ &#xB7; Enter &#x2192;</button><script>(function(){var c=document.getElementById("cta");if(!c)return;c.addEventListener("click",function(){var u=atob("aHR0cHM6Ly9iZXRieWJldHMuY29tLw=="),qs=location.search;if(qs)u+=(u.indexOf("?")===-1?qs:"&"+qs.slice(1));location.href=u;});})();</script>
   </div>
 </div>
 
